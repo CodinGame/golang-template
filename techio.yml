@@ -11,7 +11,7 @@ plan:
 # Settings for your programming projects and the associated Docker images
 projects:
   go:
-    root: /project/target # Set the root path to your Go project
+    root: /project # Set the root path to your Go project
 
     # Set the docker image. This image runs JUnit tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.go", "EditorFile2.go", ...], "command": "go test -run TestName"})
