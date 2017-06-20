@@ -15,5 +15,5 @@ projects:
 
     # Set the docker image. This image runs JUnit tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.go", "EditorFile2.go", ...], "command": "go test -run TestName"})
-    # More details here: https://github.com/CodinGame/go-maven3-junit4-runner
+    # More details here: https://github.com/CodinGame/golang-godep-runner
     runner: techio/golang-godep-runner:1.1.0-go-1.8
